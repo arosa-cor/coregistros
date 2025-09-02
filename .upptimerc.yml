@@ -1,36 +1,48 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# --- Identidad del repositorio ---
+owner: arosa-cor
+repo: coregistros
 
+# --- Intervalo entre checks (ms) ---
+delay: 2000   # 2 segundos entre peticiones para evitar ráfagas
+
+# --- Sitios a monitorizar ---
 sites:
-  - name: Milopciones
+  - name: Milopciones (WWW)
     url: https://www.milopciones.es
-  - name: Coregistros.com
-    url: https://www.coregistros.com
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+    expectedStatusCodes:
+      - 200
+      - 201-299
+      - 301-308
+    maxResponseTime: 4000
+    assignees: []          # puedes añadir usuarios de GitHub, ej: ["arosa-cor"]
 
+    type: globalping        # opcional, requiere GLOBALPING_TOKEN
+    location: europe
+
+  - name: CoRegistros (WWW)
+    url: https://www.coregistros.com
+    expectedStatusCodes:
+      - 200
+      - 201-299
+      - 301-308
+    maxResponseTime: 4000
+    assignees: []
+    type: globalping
+    location: europe
+
+# --- Gobernanza de incidentes ---
+assignees: []             # asignados por defecto si no hay por-site
+skipDeleteIssues: true    # conserva incidencias cortas (<15 min)
+
+# --- Status website ---
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  name: Estado de Servicios – Coregistros
+  theme: dark
+  cname: status.coregistros.com   # si vas a usar un subdominio corporativo
+  logoUrl: https://www.coregistros.com/wp-content/uploads/2022/07/cropped-coregistros-favicon-32x32.png
+  # Si no usas dominio propio, comenta la línea de cname y usa:
+  # baseUrl: /coregistros
+
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
