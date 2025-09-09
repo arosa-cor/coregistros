@@ -30,7 +30,7 @@ sites:
     type: globalping
     location: europe
 
-    - name: Blog.sorteopremios.com
+  - name: Blog.sorteopremios.com
     url: https://www.blog.sorteopremios.com
     expectedStatusCodes:
       - 200
