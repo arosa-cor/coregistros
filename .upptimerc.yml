@@ -8,7 +8,7 @@ delay: 2000   # 2 segundos entre peticiones para evitar ráfagas
 # --- Sitios a monitorizar ---
 sites:
   - name: Milopciones.es (WWW)
-    url: www.milopciones.es
+    url: https://milopciones.es
     expectedStatusCodes:
       - 200
       - 201-299
