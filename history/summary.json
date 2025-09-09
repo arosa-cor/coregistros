@@ -1,7 +1,7 @@
 [
   {
     "name": "Milopciones.es (WWW)",
-    "url": "45.130.18.93",
+    "url": "www.milopciones.es",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "milopciones-es-www",
     "status": "down",
@@ -10,13 +10,13 @@
     "uptimeWeek": "0.10%",
     "uptimeMonth": "0.10%",
     "uptimeYear": "0.10%",
-    "time": 1277,
-    "timeDay": 1277,
-    "timeWeek": 1277,
-    "timeMonth": 1277,
-    "timeYear": 1277,
+    "time": 1033,
+    "timeDay": 1033,
+    "timeWeek": 1033,
+    "timeMonth": 1033,
+    "timeYear": 1033,
     "dailyMinutesDown": {
-      "2025-09-09": 198
+      "2025-09-09": 201
     }
   },
   {
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 277,
-    "timeDay": 277,
-    "timeWeek": 277,
-    "timeMonth": 277,
-    "timeYear": 277,
+    "time": 268,
+    "timeDay": 268,
+    "timeWeek": 268,
+    "timeMonth": 268,
+    "timeYear": 268,
     "dailyMinutesDown": {}
   }
 ]
