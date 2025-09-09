@@ -30,8 +30,8 @@ sites:
     type: globalping
     location: europe
 
-    - name: blog.sorteopremios.com
-    url: https://blog.sorteopremios.com
+    - name: Blog.sorteopremios.com
+    url: https://www.blog.sorteopremios.com
     expectedStatusCodes:
       - 200
       - 201-299
@@ -40,7 +40,6 @@ sites:
     assignees: []
     type: globalping
     location: europe
-
 # --- Gobernanza de incidentes ---
 assignees: []             # asignados por defecto si no hay por-site
 skipDeleteIssues: true    # conserva incidencias cortas (<15 min)
