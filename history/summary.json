@@ -4,18 +4,20 @@
     "url": "https://milopciones.es",
     "icon": "https://icons.duckduckgo.com/ip3/milopciones.es.ico",
     "slug": "milopciones-es",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1259,
-    "timeDay": 1259,
-    "timeWeek": 1259,
-    "timeMonth": 1259,
-    "timeYear": 1259,
-    "dailyMinutesDown": {}
+    "status": "degraded",
+    "uptime": "99.97%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 1818,
+    "timeDay": 1818,
+    "timeWeek": 1818,
+    "timeMonth": 1818,
+    "timeYear": 1818,
+    "dailyMinutesDown": {
+      "2025-09-10": 0
+    }
   },
   {
     "name": "coregistros.com",
@@ -59,18 +61,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/g0crm.info.ico",
     "slug": "g0crm-info",
     "status": "down",
-    "uptime": "0.03%",
-    "uptimeDay": "0.03%",
-    "uptimeWeek": "0.03%",
-    "uptimeMonth": "0.03%",
-    "uptimeYear": "0.03%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 423,
     "timeDay": 423,
     "timeWeek": 423,
     "timeMonth": 423,
     "timeYear": 423,
     "dailyMinutesDown": {
-      "2025-09-10": 87
+      "2025-09-10": 188
     }
   },
   {
