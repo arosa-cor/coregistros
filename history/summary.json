@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1248,
-    "timeDay": 1248,
-    "timeWeek": 1248,
-    "timeMonth": 1248,
-    "timeYear": 1248,
+    "time": 1307,
+    "timeDay": 1307,
+    "timeWeek": 1307,
+    "timeMonth": 1307,
+    "timeYear": 1307,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,31 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 133,
-    "timeDay": 133,
-    "timeWeek": 133,
-    "timeMonth": 133,
-    "timeYear": 133,
+    "time": 96,
+    "timeDay": 96,
+    "timeWeek": 96,
+    "timeMonth": 96,
+    "timeYear": 96,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "g0crm.info",
+    "url": "https://g0crm.info",
+    "icon": "https://icons.duckduckgo.com/ip3/g0crm.info.ico",
+    "slug": "g0crm-info",
+    "status": "down",
+    "uptime": "32.26%",
+    "uptimeDay": "32.26%",
+    "uptimeWeek": "32.26%",
+    "uptimeMonth": "32.26%",
+    "uptimeYear": "32.26%",
+    "time": 383,
+    "timeDay": 383,
+    "timeWeek": 383,
+    "timeMonth": 383,
+    "timeYear": 383,
+    "dailyMinutesDown": {
+      "2025-09-10": 0
+    }
   }
 ]
