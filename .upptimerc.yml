@@ -7,7 +7,7 @@ delay: 2000   # 2 segundos entre peticiones para evitar ráfagas
 
 # --- Sitios a monitorizar ---
 sites:
-  - name: Milopciones.es
+  - name: milopciones.es
     url: https://milopciones.es
     expectedStatusCodes:
       - 200
@@ -19,7 +19,7 @@ sites:
     type: globalping        # opcional, requiere GLOBALPING_TOKEN
     location: europe
 
-  - name: CoRegistros.com
+  - name: coregistros.com
     url: https://www.coregistros.com
     expectedStatusCodes:
       - 200
@@ -30,7 +30,7 @@ sites:
     type: globalping
     location: europe
 
-  - name: Blog.sorteopremios.com
+  - name: blog.sorteopremios.com
     url: https://blog.sorteopremios.com
     expectedStatusCodes:
       - 200
