@@ -4,19 +4,19 @@
     "url": "https://milopciones.es",
     "icon": "https://icons.duckduckgo.com/ip3/milopciones.es.ico",
     "slug": "milopciones-es",
-    "status": "degraded",
-    "uptime": "99.97%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 1818,
-    "timeDay": 1818,
-    "timeWeek": 1818,
-    "timeMonth": 1818,
-    "timeYear": 1818,
+    "status": "up",
+    "uptime": "98.83%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "98.83%",
+    "uptimeMonth": "98.83%",
+    "uptimeYear": "98.83%",
+    "time": 1895,
+    "timeDay": 1895,
+    "timeWeek": 1895,
+    "timeMonth": 1895,
+    "timeYear": 1895,
     "dailyMinutesDown": {
-      "2025-09-10": 0
+      "2025-09-10": 15
     }
   },
   {
@@ -61,18 +61,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/g0crm.info.ico",
     "slug": "g0crm-info",
     "status": "down",
-    "uptime": "0.02%",
-    "uptimeDay": "0.02%",
-    "uptimeWeek": "0.02%",
-    "uptimeMonth": "0.02%",
-    "uptimeYear": "0.02%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 423,
     "timeDay": 423,
     "timeWeek": 423,
     "timeMonth": 423,
     "timeYear": 423,
     "dailyMinutesDown": {
-      "2025-09-10": 188
+      "2025-09-10": 203
     }
   },
   {
