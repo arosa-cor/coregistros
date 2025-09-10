@@ -31,7 +31,7 @@ sites:
     location: europe
 
   - name: Blog.sorteopremios.com
-    url: https://www.blog.sorteopremios.com
+    url: https://blog.sorteopremios.com
     expectedStatusCodes:
       - 200
       - 201-299
