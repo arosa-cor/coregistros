@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/milopciones.es.ico",
     "slug": "milopciones-es",
     "status": "up",
-    "uptime": "98.84%",
-    "uptimeDay": "98.84%",
-    "uptimeWeek": "98.84%",
-    "uptimeMonth": "98.84%",
-    "uptimeYear": "98.84%",
+    "uptime": "98.93%",
+    "uptimeDay": "98.93%",
+    "uptimeWeek": "98.93%",
+    "uptimeMonth": "98.93%",
+    "uptimeYear": "98.93%",
     "time": 1931,
     "timeDay": 1931,
     "timeWeek": 1931,
@@ -60,19 +60,19 @@
     "url": "https://g0crm.info",
     "icon": "https://icons.duckduckgo.com/ip3/g0crm.info.ico",
     "slug": "g0crm-info",
-    "status": "down",
-    "uptime": "0.02%",
-    "uptimeDay": "0.02%",
-    "uptimeWeek": "0.02%",
-    "uptimeMonth": "0.02%",
-    "uptimeYear": "0.02%",
-    "time": 504,
-    "timeDay": 504,
-    "timeWeek": 504,
-    "timeMonth": 504,
-    "timeYear": 504,
+    "status": "degraded",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 1375,
+    "timeDay": 1375,
+    "timeWeek": 1375,
+    "timeMonth": 1375,
+    "timeYear": 1375,
     "dailyMinutesDown": {
-      "2025-09-10": 218
+      "2025-09-10": 326
     }
   },
   {
@@ -99,18 +99,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/bevrand.com.ico",
     "slug": "bevrand-com",
     "status": "down",
-    "uptime": "16.22%",
-    "uptimeDay": "16.22%",
-    "uptimeWeek": "16.22%",
-    "uptimeMonth": "16.22%",
-    "uptimeYear": "16.22%",
+    "uptime": "0.03%",
+    "uptimeDay": "0.03%",
+    "uptimeWeek": "0.03%",
+    "uptimeMonth": "0.03%",
+    "uptimeYear": "0.03%",
     "time": 632,
     "timeDay": 632,
     "timeWeek": 632,
     "timeMonth": 632,
     "timeYear": 632,
     "dailyMinutesDown": {
-      "2025-09-10": 0
+      "2025-09-10": 108
     }
   }
 ]
