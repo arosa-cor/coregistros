@@ -7,18 +7,6 @@ delay: 2000   # 2 segundos entre peticiones para evitar ráfagas
 
 # --- Sitios a monitorizar ---
 sites:
-  - name: milopciones.es
-    url: https://milopciones.es
-    expectedStatusCodes:
-      - 200
-      - 201-299
-      - 301-308
-    maxResponseTime: 4000
-    assignees: []           # añade aquí usuarios de GitHub si quieres notificaciones
-
-    type: globalping        # opcional, requiere GLOBALPING_TOKEN
-    location: europe
-
   - name: coregistros.com
     url: https://www.coregistros.com
     expectedStatusCodes:
@@ -39,18 +27,7 @@ sites:
     maxResponseTime: 4000
     assignees: []
     type: globalping
-    location: 
-
-  - name: g0crm.info
-    url: https://g0crm.info
-    expectedStatusCodes:
-      - 200
-      - 201-299
-      - 301-308
-    maxResponseTime: 4000
-    assignees: []
-    type: globalping
-    location: europe
+    location:
 
   - name: mitest.de
     url: https://mitest.de
@@ -73,6 +50,29 @@ sites:
     assignees: []
     type: globalping
     location: europe
+
+  - name: milopciones.es
+    url: https://milopciones.es
+    expectedStatusCodes:
+      - 200
+      - 201-299
+      - 301-308
+    maxResponseTime: 4000
+    assignees: []           # añade aquí usuarios de GitHub si quieres notificaciones
+    type: globalping        # opcional, requiere GLOBALPING_TOKEN
+    location: europe
+
+  - name: g0crm.info
+    url: https://g0crm.info
+    expectedStatusCodes:
+      - 200
+      - 201-299
+      - 301-308
+    maxResponseTime: 4000
+    assignees: []
+    type: globalping
+    location: europe
+
 # --- Gobernanza de incidentes ---
 assignees: []             # asignados por defecto si no hay por-site
 skipDeleteIssues: true    # conserva incidencias cortas (<15 min)
