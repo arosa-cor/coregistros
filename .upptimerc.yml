@@ -41,7 +41,7 @@ sites:
     location: europe
 
   - name: bevrand.com
-    url: https://bevrand.com
+    url: https://www.bevrand.com
     expectedStatusCodes:
       - 200
       - 201-299
