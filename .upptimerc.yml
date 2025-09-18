@@ -84,3 +84,21 @@ status-website:
   theme: dark
   baseUrl: /coregistros
   logoUrl: https://www.coregistros.com/wp-content/uploads/2022/07/cropped-coregistros-favicon-32x32.png
+
+  # === Añadido para dejar claro el alojamiento en Raiola ===
+  introTitle: "Estado de servicios (hosting en Raiola Networks)"
+  introMessage: >
+    Esta página muestra la disponibilidad y los tiempos de respuesta de
+    nuestros servicios. **Los servidores monitorizados están alojados en
+    Raiola Networks**.
+  navbar:
+    - title: Estado
+      href: /
+    - title: Incidencias
+      href: https://github.com/arosa-cor/coregistros/issues
+    - title: Raiola Networks
+      href: https://raiolanetworks.es/
+  footer: "© 2025 Coregistros · Infraestructura alojada en Raiola Networks"
+  metaTags:
+    - name: description
+      content: "Página de estado de Coregistros. Servicios alojados en Raiola Networks."
